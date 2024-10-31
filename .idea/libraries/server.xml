@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="server">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.fabric/server/fabric-loader-server-0.16.7-minecraft-1.20.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/server/1.20.1-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
