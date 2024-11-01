@@ -1,11 +1,11 @@
-[21:32:45] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.7
-[21:32:45] [ForkJoinPool-1-worker-9/WARN]: Mod create_dd uses the version 0.1d which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1d'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[21:32:45] [ForkJoinPool-1-worker-5/WARN]: Mod design_decor uses the version 0.4.0b_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[21:32:45] [ForkJoinPool-1-worker-9/WARN]: Mod usefulbackpacks uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[21:32:45] [main/WARN]: Warnings were found!
+[19:47:18] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.7
+[19:47:18] [ForkJoinPool-1-worker-2/WARN]: Mod create_dd uses the version 0.1d which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1d'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:47:18] [ForkJoinPool-1-worker-4/WARN]: Mod usefulbackpacks uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:47:19] [ForkJoinPool-1-worker-1/WARN]: Mod design_decor uses the version 0.4.0b_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:47:20] [main/WARN]: Warnings were found!
  - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
 	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
-[21:32:45] [main/INFO]: Loading 175 mods:
+[19:47:20] [main/INFO]: Loading 175 mods:
 	- appleskin 2.5.1+mc1.20
 	- architectury 9.2.14
 	- artifacts 9.5.13
@@ -178,7 +178,7 @@
 	   \-- com_eliotlash_mclib_mclib 20
 	- iceberg 1.1.25
 	- interiors 0.5.3+fabric-mc1.20.1
-	- java 21
+	- java 17
 	- jei 15.20.0.105
 	- jeresources 1.4.0.247
 	- justenoughprofessions 3.0.1
@@ -217,54 +217,54 @@
 	- yungsbridges 1.20-Fabric-4.0.3
 	- yungscavebiomes 1.20.1-Fabric-2.0.0
 	- yungsextras 1.20-Fabric-4.0.3
-[21:32:45] [main/WARN]: Found 1 non-fabric mod:
+[19:47:20] [main/WARN]: Found 1 non-fabric mod:
 	- create-1.20.1-0.5.1.d.jar
-[21:32:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/fabricserver/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:32:45] [main/INFO]: Compatibility level set to JAVA_17
-[21:32:45] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:45] [main/WARN]: Reference map '${archivesBaseName}-refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:45] [main/WARN]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:45] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:45] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[21:32:45] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:46] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 0 override(s) found
-[21:32:46] [main/INFO]: Applying Nashorn fix
-[21:32:46] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:46] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:46] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[21:32:46] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[21:32:46] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
-[21:32:46] [main/WARN]: Error loading class: ca/fxco/moreculling/config/MoreCullingConfig (java.lang.ClassNotFoundException: ca/fxco/moreculling/config/MoreCullingConfig)
-[21:32:46] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
-[21:32:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
-[21:32:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:46] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
-[21:32:46] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[21:32:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
-[21:32:46] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
-[21:32:46] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[21:32:46] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
-[21:32:46] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
-[21:32:46] [main/WARN]: @Mixin target net.minecraft.class_970 was not found uteamcore.mixins.json:HumanoidArmorLayerMixin from mod uteamcore
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
-[21:32:46] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
-[21:32:46] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
-[21:32:46] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
-[21:32:46] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[21:32:46] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[21:32:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:46] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[21:32:46] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[21:32:46] [main/ERROR]: uteamcore.mixins.json:UContainerMenuScreenMixin from mod uteamcore: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
+[19:47:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/rodionmaslov34/fabricserver/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:47:22] [main/INFO]: Compatibility level set to JAVA_17
+[19:47:22] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:22] [main/WARN]: Reference map '${archivesBaseName}-refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:22] [main/WARN]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:22] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:22] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:22] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[19:47:22] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:23] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 0 override(s) found
+[19:47:23] [main/INFO]: Applying Nashorn fix
+[19:47:23] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:23] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:23] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:47:24] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[19:47:24] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[19:47:24] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[19:47:24] [main/WARN]: Error loading class: ca/fxco/moreculling/config/MoreCullingConfig (java.lang.ClassNotFoundException: ca/fxco/moreculling/config/MoreCullingConfig)
+[19:47:24] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
+[19:47:24] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[19:47:24] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:24] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[19:47:24] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[19:47:24] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[19:47:24] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[19:47:25] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:47:25] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[19:47:25] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[19:47:25] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
+[19:47:26] [main/WARN]: @Mixin target net.minecraft.class_970 was not found uteamcore.mixins.json:HumanoidArmorLayerMixin from mod uteamcore
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
+[19:47:26] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[19:47:26] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
+[19:47:26] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
+[19:47:26] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[19:47:26] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[19:47:26] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:26] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_5614$class_5615 (java.lang.ClassNotFoundException: net/minecraft/class_5614$class_5615)
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[19:47:26] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[19:47:26] [main/ERROR]: uteamcore.mixins.json:UContainerMenuScreenMixin from mod uteamcore: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:593) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:327) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
@@ -280,10 +280,9 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.7.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:534) ~[?:?]
-	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
 	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:124) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.16.7.jar:?]
@@ -293,151 +292,151 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
-[21:32:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:32:48] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$cfl000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[21:32:48] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:48] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:49] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:49] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:49] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[21:32:49] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[21:32:49] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[21:32:49] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[21:32:50] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[21:32:51] [main/INFO]: Vanilla bootstrap took 3309 milliseconds
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[21:32:51] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[21:32:51] [main/INFO]: Registering Item Groups for bellsandwhistles
-[21:32:51] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
-[21:32:51] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
-[21:32:51] [main/INFO]: Reflections took 28 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:51] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:51] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[21:32:51] [main/INFO]: Common init
-[21:32:53] [main/INFO]: [STDOUT]: Pondering Dimensions create_dd
-[21:32:53] [main/INFO]: Hello Fabric world!
-[21:32:53] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
-[21:32:53] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
-[21:32:53] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
-[21:32:53] [main/INFO]: Initializing CreateHighPressureMod
-[21:32:53] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
-[21:32:53] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
-[21:32:53] [main/INFO]: Registering items for Create Deco
-[21:32:53] [main/INFO]: Registering blocks for Create Deco
-[21:32:53] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: placard tooltip was null
-[21:32:53] [main/INFO]: Create addon mod [CREATEFRAMED] is loading alongside Create [0.5.1f]!
-[21:32:53] [main/INFO]: CREATEFRAMED is accessing Porting Lib from the server!
-[21:32:53] [main/INFO]: Custom display sources registered!
-[21:32:53] [main/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/24de284ed1a534cfb2664200bfb3b1e3
-[21:32:53] [main/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/b977ce0284d33fc79f13f0af88be87d7
-[21:32:53] [main/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
-[21:32:53] [main/INFO]: Create: Design n' Decor is accessing Porting Lib from the server!
-[21:32:53] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/69a65f20acde32448da097b16eacfce9
-[21:32:53] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/69d73e101ecb38b59cc59ce369f9f0e6
-[21:32:53] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/fcf1d4bbbc3b340daddecfd8389e586f
-[21:32:53] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/7ea7435aa82d37fbbe7321ccd48bb6b2
-[21:32:53] [main/INFO]: ExpandAbility here, who dis?
-[21:32:53] [Drogon/INFO]:                           +++ 🐉 +++                          
-[21:32:53] [Drogon/INFO]: --------------------------------------------------------------
-[21:32:53] [Drogon/INFO]:          Loaded DragonLib v1.20.1-2.2.16 by MrJulsen!         
-[21:32:53] [Drogon/INFO]:                    Minecraft Fabric 1.20.1                   
-[21:32:53] [Drogon/INFO]: 
-[21:32:53] [Drogon/INFO]:             Discord: https://discord.gg/AeSbNgvc7f            
-[21:32:53] [Drogon/INFO]:     GitHub: https://github.com/MisterJulsen/MC-DragonLib2    
-[21:32:53] [Drogon/INFO]:   Bug Reports: https://github.com/MisterJulsen/MC-DragonLib2  
-[21:32:53] [Drogon/INFO]: --------------------------------------------------------------
-[21:32:53] [Drogon/INFO]:                           +++ 🐉 +++                          
-[21:32:54] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
-[21:32:54] [main/INFO]: [KONKRETE] Successfully initialized!
-[21:32:54] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[21:32:54] [main/INFO]: Definitely not up to no good
-[21:32:54] [main/INFO]: Registering Mythic Items for mythicupgrades
-[21:32:54] [main/INFO]: Registering Mythic Blocks for mythicupgrades
-[21:32:54] [main/INFO]: Registering resource pack 32x...
-[21:32:54] [main/INFO]: Successfully registered resource pack 32x.
-[21:32:54] [main/INFO]: Mythic Upgrades works properly! CAN, ANNENE SELAMLAR KARDESIM! <3
-[21:32:54] [main/INFO]: Chase your dreams, no matter the cost. Don't wait for invitations, take action. Making a decision, starting something - that's half the battle of achieving success.
-[21:32:54] [main/INFO]: it seems to react to redstone
-[21:32:54] [main/INFO]: Registered bogey styles from railways
-[21:32:54] [main/INFO]: Registering data fixers
-[21:32:54] [main/INFO]: Bypassed Mojang DFU
-[21:32:54] [main/INFO]: Instantiating Mojang DFU
-[21:32:54] [main/INFO]: 0 Datafixer optimizations took 1 milliseconds
-[21:32:54] [main/INFO]: Registering tracks for Hex Casting
-[21:32:54] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
-[21:32:54] [main/INFO]: Registering tracks for Blue Skies
-[21:32:54] [main/INFO]: Registering tracks for Twilight Forest
-[21:32:54] [main/INFO]: Registering tracks for Biomes O' Plenty
-[21:32:54] [main/INFO]: Registering tracks for Nature's Spirit
-[21:32:54] [main/INFO]: Registering tracks for Dreams and Desires
-[21:32:54] [main/INFO]: Registering tracks for Quark
-[21:32:54] [main/INFO]: Registering tracks for TerraFirmaCraft
-[21:32:54] [main/INFO]: [Surveyor] is not a map mod
-[21:32:54] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[21:32:54] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[21:32:54] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
-[21:32:54] [main/INFO]: Config loaded
-[21:32:54] [main/INFO]: Tom's Storage Setup starting
-[21:32:55] [main/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[21:32:55] [main/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[21:32:55] [main/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[21:32:55] [main/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
-[21:32:55] [main/INFO]: [WTHIT] Initializing common plugin waila:team_reborn_energy at mcp.mobius.waila.plugin.trenergy.TeamRebornEnergyCommonPlugin
-[21:32:55] [main/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[21:32:55] [main/INFO]: [WTHIT] Plugin config reloaded
-[21:32:55] [Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_fabric.json
-[21:32:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
-[21:32:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
-[21:32:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:55] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:55] [main/INFO]: Reflections took 11 ms to scan 1 urls, producing 5 keys and 58 values
-[21:32:55] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 5 keys and 58 values
-[21:32:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:55] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[21:32:55] [main/INFO]: Welcome to the CREATE RAILWAYS NAVIGATOR mod by MRJULSEN.
-[21:32:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:32:55] [Version Check/INFO]: [usefulbackpacks] Found status: OUTDATED Current: ${version} Target: 2.0.1.124
-[21:32:55] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
-[21:32:55] [Version Check/INFO]: [uteamcore] Found status: AHEAD Current: 5.1.4.326 Target: null
-[21:32:55] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[21:32:56] [main/INFO]: Adding serverside commands..
-[21:32:56] [Worker-Main-1/ERROR]: Couldn't load tag design_decor:containers as it is missing following references: design_decor:red_container (from fabric), design_decor:blue_container (from fabric), design_decor:green_container (from fabric)
-[21:32:56] [main/ERROR]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder
+[19:47:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:47:30] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$cfl000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[19:47:31] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:31] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:31] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:31] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:31] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[19:47:31] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:47:31] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[19:47:31] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[19:47:36] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[19:47:36] [main/INFO]: Vanilla bootstrap took 8373 milliseconds
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[19:47:37] [main/INFO]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[19:47:37] [main/INFO]: Registering Item Groups for bellsandwhistles
+[19:47:37] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
+[19:47:37] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
+[19:47:37] [main/INFO]: Reflections took 114 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:37] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:37] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
+[19:47:37] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[19:47:37] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:37] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:47:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:47:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[19:47:38] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[19:47:38] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:38] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:47:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:47:38] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:38] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:47:38] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:47:38] [main/INFO]: Common init
+[19:47:43] [main/INFO]: [STDOUT]: Pondering Dimensions create_dd
+[19:47:43] [main/INFO]: Hello Fabric world!
+[19:47:43] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[19:47:43] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[19:47:43] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[19:47:43] [main/INFO]: Initializing CreateHighPressureMod
+[19:47:43] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[19:47:43] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[19:47:43] [main/INFO]: Registering items for Create Deco
+[19:47:43] [main/INFO]: Registering blocks for Create Deco
+[19:47:43] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: placard tooltip was null
+[19:47:43] [main/INFO]: Create addon mod [CREATEFRAMED] is loading alongside Create [0.5.1f]!
+[19:47:43] [main/INFO]: CREATEFRAMED is accessing Porting Lib from the server!
+[19:47:44] [main/INFO]: Custom display sources registered!
+[19:47:44] [main/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/24de284ed1a534cfb2664200bfb3b1e3
+[19:47:44] [main/INFO]: Registering C2S receiver with id createrailwaysnavigator:crn_network/b977ce0284d33fc79f13f0af88be87d7
+[19:47:44] [main/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
+[19:47:44] [main/INFO]: Create: Design n' Decor is accessing Porting Lib from the server!
+[19:47:44] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/69a65f20acde32448da097b16eacfce9
+[19:47:44] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/69d73e101ecb38b59cc59ce369f9f0e6
+[19:47:44] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/fcf1d4bbbc3b340daddecfd8389e586f
+[19:47:44] [main/INFO]: Registering C2S receiver with id dragonlib:dragonlib_network/7ea7435aa82d37fbbe7321ccd48bb6b2
+[19:47:44] [main/INFO]: ExpandAbility here, who dis?
+[19:47:44] [Do you think dragons exist?/INFO]:                           +++ 🐉 +++                          
+[19:47:44] [Do you think dragons exist?/INFO]: --------------------------------------------------------------
+[19:47:44] [Do you think dragons exist?/INFO]:          Loaded DragonLib v1.20.1-2.2.16 by MrJulsen!         
+[19:47:44] [Do you think dragons exist?/INFO]:                    Minecraft Fabric 1.20.1                   
+[19:47:44] [Do you think dragons exist?/INFO]: 
+[19:47:44] [Do you think dragons exist?/INFO]:             Discord: https://discord.gg/AeSbNgvc7f            
+[19:47:44] [Do you think dragons exist?/INFO]:     GitHub: https://github.com/MisterJulsen/MC-DragonLib2    
+[19:47:44] [Do you think dragons exist?/INFO]:   Bug Reports: https://github.com/MisterJulsen/MC-DragonLib2  
+[19:47:44] [Do you think dragons exist?/INFO]: --------------------------------------------------------------
+[19:47:44] [Do you think dragons exist?/INFO]:                           +++ 🐉 +++                          
+[19:47:45] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
+[19:47:45] [main/INFO]: [KONKRETE] Successfully initialized!
+[19:47:45] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[19:47:45] [main/INFO]: Definitely not up to no good
+[19:47:45] [main/INFO]: Registering Mythic Items for mythicupgrades
+[19:47:45] [main/INFO]: Registering Mythic Blocks for mythicupgrades
+[19:47:45] [main/INFO]: Registering resource pack 32x...
+[19:47:45] [main/INFO]: Successfully registered resource pack 32x.
+[19:47:45] [main/INFO]: Mythic Upgrades works properly! CAN, ANNENE SELAMLAR KARDESIM! <3
+[19:47:45] [main/INFO]: Chase your dreams, no matter the cost. Don't wait for invitations, take action. Making a decision, starting something - that's half the battle of achieving success.
+[19:47:45] [main/INFO]: Did you know that Air is made of 78 percent nitrogen and 21 percent oxygen?
+[19:47:45] [main/INFO]: Registered bogey styles from railways
+[19:47:45] [main/INFO]: Registering data fixers
+[19:47:45] [main/INFO]: Bypassed Mojang DFU
+[19:47:45] [main/INFO]: Instantiating Mojang DFU
+[19:47:46] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[19:47:46] [main/INFO]: Registering tracks for Hex Casting
+[19:47:46] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[19:47:46] [main/INFO]: Registering tracks for Blue Skies
+[19:47:46] [main/INFO]: Registering tracks for Twilight Forest
+[19:47:46] [main/INFO]: Registering tracks for Biomes O' Plenty
+[19:47:46] [main/INFO]: Registering tracks for Nature's Spirit
+[19:47:46] [main/INFO]: Registering tracks for Dreams and Desires
+[19:47:46] [main/INFO]: Registering tracks for Quark
+[19:47:46] [main/INFO]: Registering tracks for TerraFirmaCraft
+[19:47:46] [main/INFO]: [Surveyor] is not a map mod
+[19:47:46] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:47:46] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:47:46] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[19:47:46] [main/INFO]: Config loaded
+[19:47:46] [main/INFO]: Tom's Storage Setup starting
+[19:47:47] [main/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[19:47:47] [main/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[19:47:47] [main/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[19:47:47] [main/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[19:47:47] [main/INFO]: [WTHIT] Initializing common plugin waila:team_reborn_energy at mcp.mobius.waila.plugin.trenergy.TeamRebornEnergyCommonPlugin
+[19:47:47] [main/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[19:47:48] [main/INFO]: [WTHIT] Plugin config reloaded
+[19:47:48] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[19:47:48] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[19:47:48] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:48] [main/INFO]: Reflections took 35 ms to scan 1 urls, producing 5 keys and 58 values
+[19:47:48] [main/INFO]: Reflections took 29 ms to scan 1 urls, producing 5 keys and 58 values
+[19:47:48] [Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_fabric.json
+[19:47:48] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:48] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:47:48] [main/INFO]: Welcome to the CREATE RAILWAYS NAVIGATOR mod by MRJULSEN.
+[19:47:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:47:49] [Version Check/INFO]: [usefulbackpacks] Found status: OUTDATED Current: ${version} Target: 2.0.1.124
+[19:47:49] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
+[19:47:49] [Version Check/INFO]: [uteamcore] Found status: AHEAD Current: 5.1.4.326 Target: null
+[19:47:50] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[19:47:51] [main/INFO]: Adding serverside commands..
+[19:47:51] [Worker-Main-3/ERROR]: Couldn't load tag design_decor:containers as it is missing following references: design_decor:red_container (from fabric), design_decor:blue_container (from fabric), design_decor:green_container (from fabric)
+[19:47:53] [main/ERROR]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder
 com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -463,15 +462,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_log) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_wood) has more item outputs (2) than supported (1).
-[21:32:56] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_log) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_wood) has more item outputs (2) than supported (1).
+[19:47:53] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbrick'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -497,13 +496,13 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbri
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/ERROR]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/ERROR]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder
 com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -529,19 +528,19 @@ com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
-[21:32:56] [main/WARN]: Your custom create_dd:acompat/createaddition/charging/overcharge_alloy recipe (create_dd:acompat/createaddition/charging/overcharge_alloy) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_log) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Suspicious fluid amount in recipe [create_dd:sequenced_assembly/infernal_mechanism_step_3]: 500
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_wood) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
+[19:47:53] [main/WARN]: Your custom create_dd:acompat/createaddition/charging/overcharge_alloy recipe (create_dd:acompat/createaddition/charging/overcharge_alloy) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_log) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Suspicious fluid amount in recipe [create_dd:sequenced_assembly/infernal_mechanism_step_3]: 500
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_wood) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -567,97 +566,112 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.7.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server.jar:1.0.1]
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Suspicious fluid amount in recipe [create_dd:mixing/cream]: 250
-[21:32:56] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_wood) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_wood) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_log) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_log) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_wood) has more item outputs (2) than supported (1).
-[21:32:56] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_log) has more item outputs (2) than supported (1).
-[21:32:56] [main/INFO]: Loaded 30 recipes
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement create_dd:flywheel: Failed to parse 'location' field
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
-[21:32:56] [main/INFO]: Loaded 5318 advancements
-[21:32:56] [main/INFO]: Trying to load unloaded files from: config\bountiful\bounty_pools
-[21:32:56] [main/INFO]: Trying to load unloaded files from: config\bountiful\bounty_decrees
-[21:32:56] [main/INFO]: toms_storage has registered com.tom.storagemod.gui.CraftingTerminalMenu for CraftingTweaks via data pack
-[21:32:56] [main/INFO]: Loading exposure lenses:
-[21:32:56] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
-[21:32:57] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[21:32:57] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[21:32:57] [main/INFO]: Applied 963 biome modifications to 65 of 69 new biomes in 26.33 ms
-[21:32:57] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
-[21:32:57] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
-[21:32:57] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
-[21:32:57] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
-[21:32:57] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
-[21:32:57] [Server thread/INFO]: [WTHIT] Plugin config reloaded
-[21:32:57] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:32:57] [Server thread/INFO]: Loading properties
-[21:32:57] [Server thread/INFO]: Default game type: SURVIVAL
-[21:32:57] [Server thread/INFO]: Generating keypair
-[21:32:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:32:57] [Server thread/INFO]: Using default channel type
-[21:32:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:32:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:32:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:32:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:32:57] [Server thread/INFO]: Preparing level "world"
-[21:32:57] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
-[21:32:57] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
-[21:32:57] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
-[21:32:57] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
-[21:32:57] [Server thread/INFO]: [Surveyor] Loading data for create_dd:ponder
-[21:32:57] [Server thread/INFO]: [Surveyor] Finished loading data for create_dd:ponder
-[21:32:57] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
-[21:32:57] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
-[21:32:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:32:57] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[21:32:58] [Server thread/INFO]: Preparing spawn area: 0%
-[21:32:58] [Server thread/INFO]: Preparing spawn area: 0%
-[21:32:58] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:32:59] [Server thread/INFO]: Time elapsed: 1886 ms
-[21:32:59] [Server thread/INFO]: Done (2.213s)! For help, type "help"
-[21:32:59] [Server thread/WARN]: Dedicated server took 14.964 seconds to load
-[21:32:59] [Advanced Display Data Manager/INFO]: Advanced Display Data Manager has been started.
-[21:32:59] [CRN Train Listener Launcher/INFO]: Train listener has been started.
-[21:32:59] [Server thread/INFO]: All times have been corrected: 5143 Ticks
-[21:33:01] [Server thread/INFO]: stependiant[/127.0.0.1:60796] logged in with entity id 111 at (-5.5, 70.0, -0.5)
-[21:33:01] [Server thread/INFO]: Sending server config values to client
-[21:33:01] [Netty Server IO #4/INFO]: Receiving client config
-[21:33:01] [Server thread/INFO]: stependiant joined the game
-[21:33:06] [Server thread/INFO]: [stependiant: Set own game mode to Creative Mode]
-[21:33:17] [Server thread/INFO]: [stependiant: Set the time to 13000]
-[21:33:17] [Server thread/INFO]: All times have been corrected: 7502 Ticks
-[21:34:21] [Server thread/INFO]: [stependiant: The difficulty has been set to Normal]
-[21:36:06] [Server thread/INFO]: stependiant lost connection: Disconnected
-[21:36:06] [Server thread/INFO]: stependiant left the game
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Suspicious fluid amount in recipe [create_dd:mixing/cream]: 250
+[19:47:53] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_wood) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_wood) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_log) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_log) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_wood) has more item outputs (2) than supported (1).
+[19:47:53] [main/WARN]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_log) has more item outputs (2) than supported (1).
+[19:47:53] [main/INFO]: Loaded 30 recipes
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement create_dd:flywheel: Failed to parse 'location' field
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[19:47:53] [main/INFO]: Loaded 5318 advancements
+[19:47:53] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[19:47:53] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[19:47:53] [main/INFO]: toms_storage has registered com.tom.storagemod.gui.CraftingTerminalMenu for CraftingTweaks via data pack
+[19:47:53] [main/INFO]: Loading exposure lenses:
+[19:47:53] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[19:47:54] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:47:54] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19:47:54] [main/INFO]: Applied 963 biome modifications to 65 of 69 new biomes in 72.69 ms
+[19:47:54] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[19:47:54] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[19:47:54] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[19:47:54] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[19:47:54] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[19:47:54] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[19:47:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:47:54] [Server thread/INFO]: Loading properties
+[19:47:54] [Server thread/INFO]: Default game type: SURVIVAL
+[19:47:54] [Server thread/INFO]: Generating keypair
+[19:47:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:47:54] [Server thread/INFO]: Using epoll channel type
+[19:47:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:47:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:47:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:47:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:47:55] [Server thread/INFO]: Preparing level "world"
+[19:47:55] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
+[19:47:55] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
+[19:47:56] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
+[19:47:56] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
+[19:47:56] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
+[19:47:56] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
+[19:47:56] [Server thread/INFO]: [Surveyor] Loading data for create_dd:ponder
+[19:47:56] [Server thread/INFO]: [Surveyor] Finished loading data for create_dd:ponder
+[19:47:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:47:56] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[19:47:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:59] [Server thread/INFO]: Preparing spawn area: 0%
+[19:47:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:48:02] [Server thread/INFO]: Time elapsed: 6100 ms
+[19:48:02] [Server thread/INFO]: Done (7.187s)! For help, type "help"
+[19:48:02] [Server thread/WARN]: Dedicated server took 56.994 seconds to load
+[19:48:02] [Advanced Display Data Manager/INFO]: Advanced Display Data Manager has been started.
+[19:48:02] [CRN Train Listener Launcher/INFO]: Train listener has been started.
+[19:48:02] [Server thread/INFO]: All times have been corrected: 1963230 Ticks
+[20:31:16] [Server thread/INFO]: iaqkrie[/178.17.183.157:56691] logged in with entity id 13 at (198.26567551502424, 72.0, -103.15819217835787)
+[20:31:16] [Server thread/INFO]: Sending server config values to client
+[20:31:16] [Server thread/INFO]: iaqkrie joined the game
+[20:31:16] [Netty Epoll Server IO #3/INFO]: Receiving client config
+[20:31:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[20:31:29] [Server thread/INFO]: stependiant[/104.28.198.245:16998] logged in with entity id 244 at (392.69999998807907, 58.0, -20.99063028435984)
+[20:31:29] [Server thread/INFO]: Sending server config values to client
+[20:31:29] [Server thread/INFO]: stependiant joined the game
+[20:31:30] [Netty Epoll Server IO #5/INFO]: Receiving client config
+[20:34:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=346, y=85, z=-89} class_2338{x=345, y=85, z=-89}
+[20:36:59] [Server thread/INFO]: [stependiant: Set own game mode to Creative Mode]
+[20:38:38] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[20:38:43] [Server thread/INFO]: [stependiant: Set own game mode to Survival Mode]
+[20:38:59] [Server thread/INFO]: iaqkrie lost connection: Disconnected
+[20:38:59] [Server thread/INFO]: iaqkrie left the game
+[20:41:08] [Server thread/INFO]: [stependiant: Set own game mode to Creative Mode]
+[20:41:12] [Server thread/INFO]: [stependiant: Set own game mode to Spectator Mode]
+[20:41:33] [Server thread/INFO]: [stependiant: Set own game mode to Creative Mode]
+[20:41:37] [Server thread/INFO]: [stependiant: Set own game mode to Survival Mode]
